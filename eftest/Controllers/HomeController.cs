@@ -10,8 +10,31 @@ namespace eftest.Controllers
 {
     public class HomeController : Controller
     {
+        private MyFirstDbContext shopContext;
+
+        public HomeController(MyFirstDbContext sc)
+        {
+            shopContext = sc;
+        }
         public IActionResult Index()
         {
+            //var test = new Restaurant() { code = "testcode" , straat = "straatnaam", plaatsnaam = plaatsen.Amsterdam };
+            //var test2 = new Restaurant() { code = "testcode", straat = "straatnaam", plaatsnaam = plaatsen.Rotterdam };
+            //var test3 = new Restaurant() { code = "testcode", straat = "straatnaam", plaatsnaam = plaatsen.Haarlem };
+            //shopContext.Add(test);
+            //shopContext.Add(test2);
+            //shopContext.Add(test3);
+            //shopContext.SaveChanges();
+            //var test2 = shopContext.Restaurants.Where(x => x.plaatsnaam == plaatsen.Rotterdam);
+            //var test334 = test2.Count();
+            //var z = test2.FirstOrDefault();
+            //var zz = z.plaatsnaam;
+            //var zzzz = z.straat;
+            //var zzzzz = z.id;
+
+
+            //var test3 = "string";
+
             return View();
         }
 
