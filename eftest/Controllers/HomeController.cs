@@ -34,18 +34,7 @@ namespace eftest.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult githubcontrollertest()
-        {
-            var teststring = "dit is een test";
-            //s
-            //s
-            //s
-            //s
-            //s
-            //s
-            //s
-            return View();
-        }
+       
 
     }
 }
