@@ -57,6 +57,7 @@ namespace eftest.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+
         public IActionResult oudelaptoptest()
         {
             string test = "dsfsdfsdfsdfdsf";
@@ -72,6 +73,23 @@ namespace eftest.Controllers
             return View();
         }
 
+
+
+        public IActionResult nieuwelaptoptest()
+        {
+            string test = "dit is een test";
+            //c
+            //c
+            //c
+            //c
+            //c
+            //c
+            //c
+            //c
+            //c
+
+            return View();
+        }
 
 
     }
