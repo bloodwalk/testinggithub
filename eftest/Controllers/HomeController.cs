@@ -71,6 +71,7 @@ namespace eftest.Controllers
             //v
             string pushtotestbranch = "works";
             string antohertest = "branch 2?";
+            string localcommitactive = "alleen zichtbaar bij lokaal commit";
             return View();
         }
 
