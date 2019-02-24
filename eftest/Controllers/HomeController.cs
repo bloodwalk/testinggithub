@@ -49,6 +49,7 @@ namespace eftest.Controllers
         {
             ViewData["Message"] = "Your contact page.";
 
+            string nogeentest = "nog maar een test2";
             return View();
         }
 
