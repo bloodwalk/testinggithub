@@ -81,6 +81,7 @@ namespace eftest.Controllers
         public IActionResult nieuwelaptoptest()
         {
             string test = "dit is een test";
+            string test3 = "kan het nu wel?";
             //c
             //c
             //c
